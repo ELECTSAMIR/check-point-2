@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        section {
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+      <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h1>Welcome to my portfolio!</h1>
+            <p>This is a brief introduction to my portfolio.</p>
+            
+                <<iframe width="560" height="315" src="https://www.youtube.com/embed/9AmSlJq48wE?si=vs0UcNDGGPPKkE72" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </section>
+        <section id="about">
+            <h1>About me</h1>
+            <p>This is a brief description about me.</p>
+            <ul>
+                <li>why am i at gomycode ?</li>
+                <li>Jit 3ala jaw</li>
+                
+            </ul>
+        </section>
+        <section id="work">
+            <h1>My work</h1>
+            <p>This is a brief description about my work.</p>
+            <table>
+                <tr>
+                    <th>project</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>This is a brief description about project 1.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>This is a brief description about project 2.</td>
+                </tr>
+            </table>
+        </section>
+        <section id="resume">
+            <h1>Resume</h1>
+            <p>This is a brief description about my resume.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="contact">
+            <h1>Contact me</h1>
+            <p>This is a brief description about how to contact me.</p>
+            <form>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Portfolio mte3i</p>
