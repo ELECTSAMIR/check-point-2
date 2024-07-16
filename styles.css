@@ -1,10 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-}
+     font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #672d2d; /* change this line to your desired color */
+    }
+
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #652727;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -40,8 +44,11 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1, h2, h3 {
-    color: #333;
+    color: #000000;
     margin-bottom: 10px;
+}
+h4 {
+    color: #ffffff; 
 }
 p {
     margin-bottom: 20px;
@@ -53,3 +60,11 @@ footer {
     text-align: center;
     clear: both;
 }
+.button {
+    background-color: #333;
+    transition: background-color 0.5s; /* add transition effect */
+  }
+  
+  .button:hover {
+    background-color: #666;
+  }
